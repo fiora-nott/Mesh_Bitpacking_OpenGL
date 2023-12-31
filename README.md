@@ -1,7 +1,7 @@
 ## Overview
 **Date :** December 2021  
 **Languages :** C++, GLSL  
-**Libraries :**  OpenGL, GLFW, GLM
+**Libraries :**  OpenGL, GLFW, GLM  
 **IDE :**  Visual Studio 2019  
 **Purpose :**  Learning C++ and OpenGL  
 **Learning Sources :**  TheCherno OpenGL series, Victor Gordan OpenGL series  
