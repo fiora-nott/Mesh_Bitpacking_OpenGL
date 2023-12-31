@@ -15,7 +15,7 @@
 <h2>Demonstrations</h2>
 
 <h4>Here you can see a scene of 3d Perlin noise used to create sweeping curves.</h4>
-![screenshot 0](https://github.com/fiora-nott/Mesh_Bitpacking_OpenGL/assets/155269673/d3c037f1-7520-4bd5-8fb9-7d22da661aa5)
+![screenshot 0](CDV1 Screenshots/screenshot 0.PNG)
 
 <h4>At this angle, you can see the extreme scale of the grid being rendered. This is real-time.</h4>
 ![screenshot 1](https://github.com/fiora-nott/Mesh_Bitpacking_OpenGL/assets/155269673/2b778cdd-2d10-41ea-840b-06fc2e1dcdc0)
