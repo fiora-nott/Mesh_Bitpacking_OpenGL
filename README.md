@@ -13,4 +13,6 @@
 </p>
 
 <h2>Demonstrations</h2>
-<video controls src="https://github.com/fiora-nott/Mesh_Bitpacking_OpenGL/blob/7b040a2e5c2e5dd935f7646e6faa23aad19b133f/Demo1.mp4" ></video>
+https://github.com/fiora-nott/Mesh_Bitpacking_OpenGL/blob/97267fe0e1a3713683bab679cf7a6dbec2f5c67e/Demo1.mp4
+
+[https://github.com/fiora-nott/Mesh_Bitpacking_OpenGL/blob/7b040a2e5c2e5dd935f7646e6faa23aad19b133f/Demo1.mp4](https://github.com/fiora-nott/Mesh_Bitpacking_OpenGL/blob/97267fe0e1a3713683bab679cf7a6dbec2f5c67e/Demo1.mp4)https://github.com/fiora-nott/Mesh_Bitpacking_OpenGL/blob/97267fe0e1a3713683bab679cf7a6dbec2f5c67e/Demo1.mp4
