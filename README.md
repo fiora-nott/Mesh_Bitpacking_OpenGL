@@ -11,12 +11,12 @@
 This project is a C++ application which renders a static grid of voxels using the OpenGL rendering pipeline. During testing, I have managed to render 32,768,000 voxels at a crisp framerate. To achieve this, multiple optimizations have been made. Each voxel is stored as a Short, enumerated as a "Block", and held within a "Chunk". These abstractions make mesh generation simpler. Every block has a certain light level. By iterating over every chunk and comparing neighbors, we can generate a mesh of triangles for every visible surface in the scene. Additional calculation is done to determine where shadows should be placed in between edges (voxel-space ambient occlusion). This mesh data is bitpacked and sent to a shader that parses bitwise position and lighting data, then applies a texture using that information. This is all rasterized using OpenGL and sent to the GLFW window. Additional matrix math (via GLM) is done to create a player camera that can explore the scene. 
 
 ## Takeaways
-> C++ memory management requires extremely careful deconstruction, abstraction, and standard library wrappers
-> File organization is key because of the surplus header files generated in C++
-> Macros can be a powerful debugging tool, but need to be used sparingly
-> Templates are a tempting tool but ultimately make code hard to read and debug
-> Building my own variable types can reduce bloat immensely in high-level functions
-> OpenGL's reputation as an aging framework is due to frustrating boilerplate and egregious debugging tools
+- C++ memory management requires extremely careful deconstruction, abstraction, and standard library wrappers  
+- Templates are a tempting tool but ultimately make code hard to predict  
+- Building my own variable types can reduce bloat immensely in high-level functions  
+- OpenGL's reputation as an aging framework is due to frustrating boilerplate and egregious debugging tools  
+- File organization is key because of the surplus header files generated in C++  
+- Macros can be a powerful experimentation tool, but need to be used sparingly  
 
 ## Demonstrations
 <p>Here you can see a scene of 3d Perlin noise used to create sweeping curves.</p>
