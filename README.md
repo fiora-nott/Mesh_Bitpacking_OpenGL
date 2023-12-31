@@ -13,6 +13,27 @@
 </p>
 
 <h2>Demonstrations</h2>
-https://github.com/fiora-nott/Mesh_Bitpacking_OpenGL/blob/97267fe0e1a3713683bab679cf7a6dbec2f5c67e/Demo1.mp4
 
-[https://github.com/fiora-nott/Mesh_Bitpacking_OpenGL/blob/7b040a2e5c2e5dd935f7646e6faa23aad19b133f/Demo1.mp4](https://github.com/fiora-nott/Mesh_Bitpacking_OpenGL/blob/97267fe0e1a3713683bab679cf7a6dbec2f5c67e/Demo1.mp4)https://github.com/fiora-nott/Mesh_Bitpacking_OpenGL/blob/97267fe0e1a3713683bab679cf7a6dbec2f5c67e/Demo1.mp4
+<h4>Here you can see a scene of 3d Perlin noise used to create sweeping curves.</h4>
+![screenshot 0](https://github.com/fiora-nott/Mesh_Bitpacking_OpenGL/assets/155269673/d3c037f1-7520-4bd5-8fb9-7d22da661aa5)
+
+<h4>At this angle, you can see the extreme scale of the grid being rendered. This is real-time.</h4>
+![screenshot 1](https://github.com/fiora-nott/Mesh_Bitpacking_OpenGL/assets/155269673/2b778cdd-2d10-41ea-840b-06fc2e1dcdc0)
+
+<h4>In this block layout, you can see how the ambient occlusion works even in tight spaces.
+The shadows are exaggerated for effect in this demonstration.
+</h4>
+![screenshot 2](https://github.com/fiora-nott/Mesh_Bitpacking_OpenGL/assets/155269673/7b2ff658-d430-4684-a079-a6394361f9a7)
+
+<h4>Shaders allow rapid iteration of effects on color or warped terrain. In this scene, colors are rapidly
+washing over every block in a looping sine rainbow pattern.</h4>
+![screenshot 3](https://github.com/fiora-nott/Mesh_Bitpacking_OpenGL/assets/155269673/965bc95d-0279-4a81-a791-99417b7802d9)
+
+<h4>Another effect utilized is UV rotation. In mesh generation, each block face is given a random
+rotation to break up repeating textures, visible in all these screenshots. This is especially helpful 
+because there is no anti-aliasing for distant textures.</h4>
+![screenshot 4](https://github.com/fiora-nott/Mesh_Bitpacking_OpenGL/assets/155269673/edeb38cb-b262-48c2-b9a3-6d03e304b982)
+
+<h4>Up close, you can see the edges of cubes are crisp. Near-parallel faces are still rendered in full color,
+giving an intense experience of perspective and immersion.</h4>
+![screenshot 5](https://github.com/fiora-nott/Mesh_Bitpacking_OpenGL/assets/155269673/0a4df24f-29be-477a-9a6b-1e3a2b88dbd3)
