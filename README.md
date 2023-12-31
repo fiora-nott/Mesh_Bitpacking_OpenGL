@@ -1,5 +1,3 @@
-# <h1> Documentation </h1>
-
 <h2>Summary</h2>
 <p>
   This project is a C++ application to render a static grid of voxels. Editable in Application.cpp, the world size is set to 4x4x4 chunks each with 32x32x32 blocks.
