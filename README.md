@@ -1,11 +1,11 @@
 <h2>Overview</h2>
-> Date: December 2021
-> Languages: C++, GLSL
-> Libraries: OpenGL, GLFW
-> IDE: Visual Studio 2019
-> Purpose: Learning C++ and OpenGL
-> Learning Sources: TheCherno OpenGL series, Victor Gordan OpenGL series
-> Time Spent: 10 days
+> Date: December 2021 \n
+> Languages: C++, GLSL \n
+> Libraries: OpenGL, GLFW \n
+> IDE: Visual Studio 2019 \n
+> Purpose: Learning C++ and OpenGL \n
+> Learning Sources: TheCherno OpenGL series, Victor Gordan OpenGL series \n
+> Time Spent: 10 days \n
 
 <h2>Summary</h2>
 <p>
