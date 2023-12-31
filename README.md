@@ -14,26 +14,32 @@
 
 <h2>Demonstrations</h2>
 
-<h4>Here you can see a scene of 3d Perlin noise used to create sweeping curves.</h4>
-![screenshot 0](CDV1 Screenshots/screenshot 0.PNG)
+<p>Here you can see a scene of 3d Perlin noise used to create sweeping curves.</p>
 
-<h4>At this angle, you can see the extreme scale of the grid being rendered. This is real-time.</h4>
-![screenshot 1](https://github.com/fiora-nott/Mesh_Bitpacking_OpenGL/assets/155269673/2b778cdd-2d10-41ea-840b-06fc2e1dcdc0)
+![screenshot 0](Screenshots/screenshot0.png)
 
-<h4>In this block layout, you can see how the ambient occlusion works even in tight spaces.
+<p>At this angle, you can see the extreme scale of the grid being rendered. This is real-time.</p>
+
+![screenshot 1](Screenshots/screenshot1.png)
+
+<p>In this block layout, you can see how the ambient occlusion works even in tight spaces.
 The shadows are exaggerated for effect in this demonstration.
-</h4>
-![screenshot 2](https://github.com/fiora-nott/Mesh_Bitpacking_OpenGL/assets/155269673/7b2ff658-d430-4684-a079-a6394361f9a7)
+</p>
 
-<h4>Shaders allow rapid iteration of effects on color or warped terrain. In this scene, colors are rapidly
-washing over every block in a looping sine rainbow pattern.</h4>
-![screenshot 3](https://github.com/fiora-nott/Mesh_Bitpacking_OpenGL/assets/155269673/965bc95d-0279-4a81-a791-99417b7802d9)
+![screenshot 2](Screenshots/screenshot2.png)
 
-<h4>Another effect utilized is UV rotation. In mesh generation, each block face is given a random
+<p>Shaders allow rapid iteration of effects on color or warped terrain. In this scene, colors are rapidly
+washing over every block in a looping sine rainbow pattern.</p>
+
+![screenshot 3](Screenshots/screenshot3.png)
+
+<p>Another effect utilized is UV rotation. In mesh generation, each block face is given a random
 rotation to break up repeating textures, visible in all these screenshots. This is especially helpful 
-because there is no anti-aliasing for distant textures.</h4>
-![screenshot 4](https://github.com/fiora-nott/Mesh_Bitpacking_OpenGL/assets/155269673/edeb38cb-b262-48c2-b9a3-6d03e304b982)
+because there is no anti-aliasing for distant textures.</p>
 
-<h4>Up close, you can see the edges of cubes are crisp. Near-parallel faces are still rendered in full color,
-giving an intense experience of perspective and immersion.</h4>
-![screenshot 5](https://github.com/fiora-nott/Mesh_Bitpacking_OpenGL/assets/155269673/0a4df24f-29be-477a-9a6b-1e3a2b88dbd3)
+![screenshot 4](Screenshots/screenshot4.png)
+
+<p>Up close, you can see the edges of cubes are crisp. Near-parallel faces are still rendered in full color,
+giving an intense experience of perspective and immersion.</p>
+
+![screenshot 5](Screenshots/screenshot5.png)
