@@ -1,9 +1,13 @@
+<h2>Overview</h2>
+> Date: December 2021
+> Languages: C++, GLSL
+> Libraries: OpenGL, GLFW
+> IDE: Visual Studio 2019
+> Purpose: Learning C++ and OpenGL
+> Learning Sources: TheCherno OpenGL series, Victor Gordan OpenGL series
+> Time Spent: 10 days
+
 <h2>Summary</h2>
 <p>
-  This project is a C++ application to render a static grid of voxels. Editable in Application.cpp, the world size is set to 4x4x4 chunks each with 32x32x32 blocks.
-  This works out to 2,097,152 voxels being drawn simultaneously at a crisp framerate. I used OpenGL for the rendering pipeline. This means the voxels are converted
-  from singular short values (enumerated as "Blocks") into a mesh with all lighting data packed into vertices. The mesh is composed of primitive triangles that
-  represent every possible visible block face in the scene. This mesh is rasterized to the screen using a shader that parses bitpacked data into UV's, textures, ambient occlusion,
-  and light levels. The GLFW library is used to generate a 1280x720 screen for a windows device. This screen is 
-  the target for all shader output.
+ This project is a C++ application which renders a static grid of voxels using the OpenGL rendering pipeline. During testing, I have managed to render 32,768,000 voxels at a crisp framerate. To achieve this, multiple optimizations have been made. Each voxel is stored as a Short, enumerated as a "Block", and held within a "Chunk". These abstractions make mesh generation simpler. Every block has a certain light level. By iterating over every chunk and comparing neighbors, we can generate a mesh of triangles for every visible surface in the scene. Additional calculation is done to determine where shadows should be placed in between edges (voxel-space ambient occlusion). This mesh data is bitpacked and sent to a shader that parses bitwise position and lighting data, then applies a texture using that information. This is all rasterized using OpenGL and sent to the GLFW window. Additional shader math is done to create a player camera that can explore the scene. 
 </p>
