@@ -18,7 +18,11 @@ This project is a C++ application which renders a static grid of voxels using th
 - File organization is key because of the surplus header files generated in C++  
 - Macros can be a powerful experimentation tool, but need to be used sparingly  
 
-## Demonstrations
+## Video Montage
+
+![Montage of Development](https://www.youtube.com/watch?v=kP7laC2ohEo)
+
+## Screenshots
 <p>Here you can see a scene of 3d Perlin noise used to create sweeping curves.</p>
 
 ![screenshot 0](Screenshots/screenshot0.png)
