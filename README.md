@@ -26,6 +26,8 @@ Warning - Video contains multiple instances of flashing colors
 
 ## Diagram
 
+The full size diagram is available as a PDF or PNG in the "Screenshots" folder  
+
 ![UML Diagram](Screenshots/OpenGL_UML_White.png)
 
 ## Screenshots
