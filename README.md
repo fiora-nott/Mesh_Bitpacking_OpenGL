@@ -113,7 +113,7 @@ void main() {
 ```
 
 Meshing Algorithm (ChunkMesher.cpp):
-```hlsl
+```c++
 // Iterate over each face of this voxel
 for (int side = 0; side < 6; side++) {
     // Project out with a normal vector and check if the neighbor voxel is solid or air
