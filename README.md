@@ -112,6 +112,8 @@ void main() {
 }
 ```
 
+---
+
 Meshing Algorithm (ChunkMesher.cpp):
 ```c++
 // Iterate over each face of this voxel
