@@ -79,7 +79,7 @@ This x-ray effect is even more visible when near the bounds of the world. Here, 
 
 Vertex Shader (PerspectiveBinaryMem.shader):
 
-```hlsl
+```glsl
 void main() {
     // Determine 3d coordinate of this vertex with first 15 bits
     // 5 bits per axis allows 2^5 = 32 possible values. Each chunk is size 31x31x31 to fit within this range.
